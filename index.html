@@ -90,6 +90,9 @@
                   type="email"
                   required="required"
                   ng-model="ctrl.email" />
+                <div ng-if="form.email.$touched">
+                  <div ng-if="form.email.$error.require"
+                </div>
               </div>
             </form>
         </div>
